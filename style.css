@@ -8,17 +8,24 @@
 
 body{
     font-family: 'chakra petch',sans-serif;
+    color: var(--cor-principal);
 }
 
 h1, h2,h5{
      color:var(--cor-principal);
      font-weight: 700;
-     }
+ }
 
-     footer a{
-        color: var(--cor-destaque);
-     }
+ .lead, .bnt-link`{
+        color: var(--cor-principal);
+ }
+ 
+ a, .bnt-link:houver{
+    color: var(--cor-principal);
+ }
 
-     footer a:houver {
-        color: var(--cor-destaque);
-     }
+ a:houver{
+    color: var(--cor-destaque);
+ }
+    
+     
